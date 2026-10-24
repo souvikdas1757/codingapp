@@ -1,0 +1,62 @@
+[
+  {
+    "id": "js-fundamentals",
+    "title": "JavaScript Fundamentals",
+    "description": "Master the basics of JavaScript.",
+    "language": "JavaScript",
+    "difficulty": "beginner",
+    "category": "Web",
+    "durationMinutes": 480,
+    "totalLessons": 2,
+    "icon": "🟨",
+    "color": "#F7DF1E",
+    "featured": true,
+    "objectives": [
+      "Understand variables and types",
+      "Write basic functions"
+    ],
+    "modules": [
+      {
+        "id": "js-m1",
+        "title": "Getting Started",
+        "lessons": [
+          {
+            "id": "js-l1",
+            "title": "Introduction to JavaScript",
+            "durationMinutes": 15,
+            "content": [
+              {
+                "type": "heading",
+                "text": "What is JavaScript?"
+              },
+              {
+                "type": "paragraph",
+                "text": "JavaScript is the programming language of the web."
+              },
+              {
+                "type": "code",
+                "language": "javascript",
+                "code": "console.log('Hello, JavaScript!');"
+              }
+            ]
+          },
+          {
+            "id": "js-l2",
+            "title": "Variables",
+            "durationMinutes": 20,
+            "content": [
+              {
+                "type": "heading",
+                "text": "Variables and Constants"
+              },
+              {
+                "type": "paragraph",
+                "text": "Use `const` for values that never change, and `let` for mutable variables."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
